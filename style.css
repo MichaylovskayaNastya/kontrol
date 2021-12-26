@@ -1,0 +1,568 @@
+*{
+    margin: 0;
+    padding: 0;
+    /* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+}
+
+.header{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.conteiner{
+    width: 100%;
+    height: 200px;
+}
+.header-ihner{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.header-top{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.logo{
+    width: 140px;
+    padding-left: 45px;
+}
+.ww1{
+    width: 2px;
+    height: 45px;
+    background-color: rgb(218, 218, 218);
+    margin: 0 5px 0 5px;
+}
+.language{
+    width: 70px;
+    height: 50px;
+
+}
+.ru{
+    width: 35px;
+    background-color: green;
+    color: white;
+    
+}
+.black{
+    width: 75px;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.phone{
+    width: 130px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+}
+.nomer{
+    width: 100px;
+    padding-right: 5px;
+}
+.online{
+    width: 450px;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.maistra{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+}
+.grey1{
+    width: 70%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.calendar{
+    width: 30%;
+    background-color: red;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.tur{
+    width: 200px;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    padding-right: 25px;
+}
+.grey2{
+    width: 70%;
+    background-color: rgb(209, 209, 209);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.lens{
+    width: 30%;
+    background-color: rgb(34, 173, 34);
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+.ikons i {
+    color: rgb(134, 134, 134);
+    padding-left: 5px;
+    padding-right: 5px;
+}
+.phone i {
+    color: rgb(134, 134, 134);
+    padding-left: 5px;
+}
+.liner{
+    width: 100%;
+    height: 3px;
+    background-color: rgb(218, 218, 218);
+}
+
+.header-main{
+    width: 100%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.list{
+    width: 100%;
+    height: 70px;
+}
+ul{
+    position: relative;
+    display: flex;
+    justify-content: space-around;
+}
+ul li{
+    display: inline;
+    font-size: 30px;
+    color: #616161;
+    font-family: 'Montserrat', sans-serif;
+}
+ul li ul{
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 35px;
+    left: 500px;
+    background-color: rgba(204, 204, 204, 0.465);
+}
+ul li:hover >ul{
+    display: block;
+    opacity: 1;
+}
+li:hover{
+    background-color: rgb(87, 149, 5);
+}
+ul li ul li{
+    display: block;
+    padding: 10px 20px;
+}
+
+
+
+.baner{
+    width: 100%;
+    height: 100%;
+
+}
+.wallpaper{
+    width: 100%;
+    height: 700px;
+    background: url(./img/maxresdefault.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+.euro{
+    width: 150px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid #fff;
+    margin-left: 250px;
+}
+.euro p {
+    color: #fff;
+}
+.wallpaper h1 {
+    color: #fff;
+    font-size: 50px;
+    margin-left: 250px;
+}
+
+
+
+.main{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.box h1 {
+    margin: 5px 15px 5px 10px;
+}
+.pusto{
+    width: 750px;
+    
+    border: 1px solid #acacac;
+}
+.tury{
+    width: 80px;
+    height: 30px;
+    border: 1px solid #acacac;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+}
+
+.case{
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    width: 330px;
+    height: 480px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 5px 10px 5px 10px;
+}
+.img{
+    width: 100%;
+    height: 250px;
+    background: url(./img/mandarina\ 2.png) no-repeat;
+    background-size: cover;
+}
+.town{
+    width: 197px;
+    height: 30px;
+    background-color: #00000081;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port{
+    width: 100%;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.port h1{
+    font-size: 25px;
+}
+.opisanie{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.opisanie p{
+    font-size: 17px;
+    color: #acacac;
+}
+.air{
+    width: 90%;
+    height: 1px;
+    background-color: #acacac;
+}
+.zena_data{
+    width: 100%;
+    height: 90px;
+    display: flex;
+    flex-direction: row;
+}
+.zena{
+    width: 60%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.zena h1{
+    color: rgb(195, 22, 22);
+}
+.zena p{
+    color: rgb(158, 158, 158);
+}
+.data{
+    width: 40%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.img2{
+    width: 100%;
+    height: 250px;
+    background: url(./img/1491655\ 1.png) no-repeat;
+    background-size: cover;
+}
+.img3{
+    width: 100%;
+    height: 250px;
+    background: url(./img/276398231\ 1.png) no-repeat;
+    background-size: cover;
+}
+
+.crisper{
+    width: 100%;
+    height: 450px;
+    background: url(./img/GettyImages-685890576-2200x880\ 1.png) no-repeat;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.crisper h1{
+    color: #fff;
+    font-size: 40px;
+}
+
+.info{
+    width: 1179px;
+    height: 450px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.banjo1{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.banjo2{
+    width: 50%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.info1{
+    width: 100%;
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.new{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.tt_t{
+    width: 30%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.version1{
+    width: 70%;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+
+.evil{
+    width: 100%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.rout1{
+    width: 100%;
+    height: 200px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+}
+.texttt1{
+    width: 50%;
+    height: 50%;
+    display: flex;
+    flex-direction: column;
+}
+.texttt1 h1{
+    font-family: 'Montserrat', sans-serif;
+}
+.texttt2{
+    width: 50%;
+    height: 50%;
+    display: flex;
+}
+.texttt2 p{
+    font-family: 'Montserrat', sans-serif;
+}
+
+
+.footer{
+    width: 100%;
+    height: 300px;
+    background: url(./img/SloveniaHeader\ 3.png) no-repeat; opacity: 0.5;
+    background-size: cover;
+    
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.pulley1{
+    width: 100%;
+    height: 250px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.informat1{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.informat1 p{
+    color: #5e5e5e;
+}
+.informat2{
+    width: 50px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.informat2 p{
+    color: #5e5e5e;
+}
+.mode{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.mode p{
+    color: #5e5e5e;
+}
+.contactt{
+    width: 180px;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+.contactt p{
+    color: #5e5e5e;
+}
+.bowl{
+    width: 70%;
+    height: 1px;
+    border: 1px solid #7e7e7e;
+    background-color: #7e7e7e;
+}
+.pulley2{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.datta{
+    width: 350px;
+    height: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.datta p{
+    color: #5e5e5e;
+}
+.ikonss{
+    width: 70px;
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+.ikonss i{
+    color: #5e5e5e;
+}
+
+
+@media screen and (max-width: 767px){
+    .conteiner{
+        display: none;
+    }
+    .wallpaper{
+        width: 330px;
+        height: 500px;
+    }
+    
+    .box h1{
+        font-size: 30px;
+    }
+    .pusto{
+        display: none;
+    }
+    .tury{
+        display: none;
+    }
+    .case{
+        flex-direction: column;
+    }
+    .card{
+        width: 250px;
+        height: 550px;
+    }
+}
